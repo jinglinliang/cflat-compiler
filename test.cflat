@@ -1,0 +1,112 @@
+int a;
+bool b;
+int var;
+
+
+int add(int x1, int x2) {
+     x1 = x1 + x2;
+
+     if (x1 < 10) {
+        return x1; 
+     } else {
+        return 100;        
+     }
+}
+
+void main(){
+    int a;
+    bool c;
+    int var2;
+
+    cout << a;
+    cout << c;
+
+    a = 5;
+    c = true;
+
+    cout << a;
+    cout << c;
+
+    cout << b;
+
+    a++;
+
+    cout << a;
+
+    a--;
+    a--;
+
+    cout << a;
+    
+    cout << var;
+
+    var = 666;
+    cout << var;
+    var++;
+    cout << var;
+
+    cin >> var;
+    var--;
+    cout << var;
+
+    cin >> a;
+    a++;
+    cout << a;
+
+    cin >> c;
+    c = !c;
+    cout << c;
+    cout << !c;
+
+    
+    cout << "\n";
+    cout << "bool: ";
+    cout <<  (a == var) && (var <= 15) || false;
+    cout << "\n";
+
+    a = a / 4 * 3 + 40 - (-13) + var;
+    
+    while (a != 100) {
+        cout << a;
+        cout << "\n";
+        a++;
+    }
+    
+    var2 = 10 + add(2, add(1, 5));
+    cout << var2;
+    cout << "\n";
+
+    cout << "hi1" == "hi2";
+    cout << "jinglin" == "jinglin";
+    cout << "\n";
+
+    if (c) {
+        int x;
+        int y;
+        x = 87;
+        cin >> b;
+        if (b) {
+            int i;
+            int j;
+            cout << "hi there\n";
+            i = add(a, var);
+            cout << i;
+            cout << "\n";
+        }else {
+            int d;
+            d = 456;
+            cout << x;
+            cout << d;
+        } 
+    }else {
+        int e;
+        int f;
+        e = 99;
+        e--;
+        cout << e;
+    }
+
+    cout << "Hello, Jinglin\n";
+    cout << 2333;
+    cout << true;
+}
